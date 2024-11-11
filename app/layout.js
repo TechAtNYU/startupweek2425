@@ -6,7 +6,16 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <head>
+		<title>Startup Week</title>
+    <description>Startup Week 2025 by Tech@NYU</description>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		
+	    </head>
+      <body>
+        {children}
+      </body>
     </html>
   )
 }
